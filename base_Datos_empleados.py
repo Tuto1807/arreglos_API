@@ -2,7 +2,7 @@ class base_datos_empleados:
     def __init__(self):
         # ARRAY
         self.db_empleado_lista = []
-
+        
     def agregar_empleado(self, obj_empleado):
         self.db_empleado_lista.append(obj_empleado)
         return True
